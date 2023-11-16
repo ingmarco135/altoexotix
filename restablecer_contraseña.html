@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_mensajes.css">
+    <!-- Agrega aquí el enlace a Bootstrap si decides usarlo -->
+    <!-- <link rel="stylesheet" href="path/to/bootstrap.css"> -->
+    <title>Restablecer contraseña</title>
+</head>
+<body>
+    <div class="reset-password-container" id="resetPassword">
+        <form method="post" action="reset_password.php" onsubmit="return handleResetPassword()">
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Email" name="resetEmail" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="submit" class="submit" value="Reset Password" name="resetPasswordBtn">
+            </div>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

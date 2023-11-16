@@ -1,0 +1,23 @@
+/* Estilos para mensajes/alertas */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.success {
+    color: #465746;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* Puedes agregar más estilos según tus necesidades */
+

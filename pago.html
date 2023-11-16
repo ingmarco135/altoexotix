@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_pago.css">
+    <link rel="stylesheet" href="css/estilo_global.css">
+
+    <title>Pagos - ATOQ EXOTICOS</title>
+</head>
+<body>
+
+<header>
+    <h1>Pagos</h1>
+    <nav>
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li class="submenu-parent"><a href="#">Categorías</a>
+                <ul class="submenu">
+                    <li><a href="animales_exoticos.html">Animales Exóticos</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="carrito.html">Carrito <span id="cart-counter">0</span></a></li>
+            <li><a href="pago.html">Pagos</a></li>
+            <li><a href="#">Comentarios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenido de la página -->
+<section id="payment-content">
+    <h2>Pagos</h2>
+
+    <!-- Información del carrito y opciones de pago -->
+    <div id="cart-summary">
+        <h3>Resumen del Carrito</h3>
+
+        <!-- Ejemplo de un producto en el resumen del carrito -->
+        <div class="cart-item-summary">
+            <p>Nombre del Producto 1</p>
+            <p>Precio: $XX.XX</p>
+            <p>Cantidad: 1</p>
+        </div>
+
+        <!-- Puedes agregar más elementos según sea necesario -->
+
+        <p>Total: $YY.YY</p>
+    </div>
+
+    <!-- Opciones de pago -->
+    <div id="payment-options">
+        <h3>Seleccione una opción de pago</h3>
+
+        <label for="credit-card">Tarjeta de Crédito</label>
+        <input type="radio" id="credit-card" name="payment-option" value="credit-card">
+
+        <label for="paypal">PayPal</label>
+        <input type="radio" id="paypal" name="payment-option" value="paypal">
+
+        <button onclick="processPayment()">Procesar Pago</button>
+    </div>
+</section>
+
+<script src="js/script_pago.js"></script> <!-- Asegúrate de agregar este script -->
+</body>
+</html>

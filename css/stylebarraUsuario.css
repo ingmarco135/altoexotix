@@ -1,0 +1,114 @@
+/* Reset de estilos y configuración básica */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Barra de Usuario */
+  .user-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 10px;
+  }
+  
+  .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-options {
+    position: relative;
+  }
+  
+  .profile-button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Panel de Contenido */
+  .panel {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .panel h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #3498db;
+  }
+  body > div {
+    display: flex; /* Utilizar flexbox para distribuir los divs internos */
+}
+
+/* Estilo del primer div (panel opciones) con un 70% de ancho */
+.panel_opciones {
+    width: 93%;
+}
+
+/* Estilo del segundo div (user-bar) con un 30% de ancho */
+.user-bar {
+    width: 8%;
+    background-color: #333; /* Color de fondo para distinguirlo */
+}

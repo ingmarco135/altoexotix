@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_contacto.css">
+    <title>Contacto - ATOQ EXOTICOS</title>
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="submenu-parent"><a href="#">Categorías</a>
+                <ul class="submenu">
+                    <li><a href="animales_exoticos.html">Animales Exóticos</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenido de la página -->
+<section id="contact-content">
+    <h2>¡Contáctanos!</h2>
+    <p>Estamos aquí para responder a tus preguntas y proporcionarte la mejor experiencia de compra.</p>
+
+    <div class="contact-info">
+        <p>Dirección: AV. Collasuyo H-10 Cusco</p>
+        <p>Teléfono: 929412244</p>
+        <p>Correo Electrónico: info@atoqexoticos.com</p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Envíanos un Mensaje</h3>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+<script src="script_contacto.js"></script>
+</body>
+</html>

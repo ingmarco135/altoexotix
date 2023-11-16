@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_animales_exoticos.css">
+    <link rel="stylesheet" href="css/estilo_global.css">
+
+    <title>Animales Exóticos - ATOQ EXOTICOS</title>
+</head>
+<body>
+
+<header>
+    <h1>Animales Exóticos</h1>
+    <nav>
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li class="submenu-parent"><a href="#">Categorías</a>
+                <ul class="submenu">
+                    <li><a href="animales_exoticos.html">Animales Exóticos</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="carrito.html">Carrito <span id="cart-counter">0</span></a></li>
+            <li><a href="#">Pagos</a></li>
+            <li><a href="#">Comentarios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenido específico de la subcategoría de animales exóticos -->
+<section id="exotic-animals-content">
+    <h2>Descubre Nuestra Colección de Animales Exóticos</h2>
+    <p>Explora nuestra fascinante colección de animales exóticos y encuentra a tu nuevo compañero único.</p>
+
+    <div class="animal">
+        <img src="css/imagenes/serpiente.jpg" alt="serpiente">
+        <h3>Serpiente de Maiz</h3>
+        <p>Los depredadores frecuentes de la serpiente del maíz, son aquellos que también se atreven atacar a otras culebreas carentes de veneno.</p>
+        <p>Precio: Consultar</p>
+        <button onclick="addToCart('Serpiente de Maiz', 'Consultar')">Agregar al Carrito</button>
+    </div>
+
+    <div class="animal">
+        <img src="css/imagenes/erizo.jpg" alt="erizo">
+        <h3>Erizo</h3>
+        <p>Estos animales se han popularizado enormemente en los últimos años como animales domésticos, no obstante, debemos saber que se trata de animales de hábitos nocturnos que se alimentan principalmente de insectos.</p>
+        <p>Precio: Consultar</p>
+        <button onclick="addToCart('Erizo', 'Consultar')">Agregar al Carrito</button>
+    </div>
+
+    <!-- Puedes agregar más animales aquí -->
+
+</section>
+
+<script src="js/script_animales_exoticos.js"></script>
+<script src="js/carrito.js"></script> <!-- Asegúrate de agregar este script -->
+</body>
+</html>
+
+

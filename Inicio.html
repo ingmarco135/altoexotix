@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/stylebarraUsuario.css">
+  <script defer src="js/scriptbarraUsuario.js"></script>
+  <title>Barra de Usuario</title>
+</head>
+<body>
+  <div>
+    <!-- panel opciones  es el div 1 -->
+    <div class="panel_opciones">
+      <header>
+        <h1>Bienvenido a ATOQ EXOTICOS</h1>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li class="submenu-parent"><a href="#">Categorías</a>
+                    <ul class="submenu">
+                        <li><a href="animales_exoticos.html">Animales Exóticos</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+    </div>
+    <!-- user-bar es el div 2 -->
+    <div class="user-bar">
+      <div class="avatar">
+        <img src="https://via.placeholder.com/150" alt="Avatar">
+      </div>
+  
+      <div class="user-options">
+        <button class="profile-button" onclick="toggleMenu()">Perfil</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+          <a href="editarPerfil.html">Configuración</a>
+          <a href="#">Historial</a>
+          <a href="index.html">Cerrar Sesión</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="content">
+
+  <div class="store-info">
+      <p>Bienvenido a ATOQ EXOTICOS, tu tienda especializada en animales exóticos y accesorios únicos para mascotas.</p>
+      <p>Explora nuestra amplia selección de animales fascinantes y encuentra los accesorios perfectos para cuidar a tus mascotas exóticas.</p>
+      <p>Nuestro equipo apasionado está aquí para brindarte el mejor servicio y asesoramiento en cada compra.</p>
+      <p>Dirección: AV. Collasuyo H-10 Cusco</p>
+      <p>Teléfono: 929412244</p>
+      <p>Horario de atención: Lunes a Viernes de 9 AM a 6 PM</p>
+      <p>Síguenos en redes sociales: <a href="#">Facebook</a> - <a href="#">Tik Tok</a></p>
+    </div>
+    <div class="store-image">
+        <img src="css/imagenes/tienda.jpg" alt="Imagen de la tienda">
+    </div>
+</section>
+
+<script src="js/scriptini.js"></script>
+</body>
+</html>
+
+

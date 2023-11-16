@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    width: 200px;
+}
+
+.submenu-parent:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+    margin: 10px 0;
+}
+
+.submenu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#exotic-animals-content {
+    padding: 20px;
+}
+
+#exotic-animals-content h2 {
+    color: #333;
+}
+
+#exotic-animals-content p {
+    margin-bottom: 20px;
+}
+
+.animal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.animal img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.animal h3 {
+    margin-top: 10px;
+}
+
+.animal a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.animal a:hover {
+    background-color: #ffcc00;
+}
+
+/* Otros estilos según tus necesidades */
+
+/* Agrega aquí tus estilos específicos para la página de animales exóticos */
+
+#exotic-animals-content {
+    padding: 20px;
+}
+
+.animal {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.animal img {
+    max-width: 100%;
+    height: auto;
+}

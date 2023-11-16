@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_carrito.css">
+    <link rel="stylesheet" href="css/estilo_global.css">
+
+    <title>Carrito de Compras - ATOQ EXOTICOS</title>
+</head>
+<body>
+
+<header>
+    <h1>Carrito de Compras</h1>
+    <nav>
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li class="submenu-parent"><a href="#">Categorías</a>
+                <ul class="submenu">
+                    <li><a href="animales_exoticos.html">Animales Exóticos</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="carrito.html">Carrito <span id="cart-counter">0</span></a></li>
+            <li><a href="pago.html">Pagos</a></li>
+            <li><a href="#">Comentarios</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenido de la página -->
+<section id="cart-content">
+    <h2>Carrito de Compras</h2>
+
+    <!-- Ejemplo de un producto en el carrito -->
+    <div class="cart-item">
+        <img src="css/imagenes/carrito.png" alt="Producto 1" style="max-width: 50px;">
+        <h3>Nombre del Producto 1</h3>
+        <p>Precio: $XX.XX</p>
+        <label for="quantity1">Cantidad:</label>
+        <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+        <button onclick="updateCart()">Actualizar</button>
+        <button onclick="removeFromCart()">Eliminar</button>
+    </div>
+
+    <!-- Puedes agregar más elementos según sea necesario -->
+
+    <p>Total: $YY.YY</p>
+
+    <button onclick="proceedToPayment()">Proceder al Pago</button>
+</section>
+
+<script src="js/script_carrito.js"></script> <!-- Asegúrate de agregar este script -->
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Agrega aquí tus estilos específicos para la página de pagos */
+
+#payment-content {
+    padding: 20px;
+}
+
+#cart-summary {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cart-item-summary {
+    margin-bottom: 10px;
+}
+
+#payment-options {
+    margin-top: 20px;
+}
+
+/* Puedes agregar más estilos según sea necesario */

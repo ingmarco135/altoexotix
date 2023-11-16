@@ -1,0 +1,16 @@
+/* Estilo del contenedor principal */
+#contenedor {
+    display: flex; /* Utilizar flexbox para distribuir los divs internos */
+}
+
+/* Estilo del primer div con un 70% de ancho */
+#div1 {
+    width: 70%;
+    background-color: lightblue; /* Color de fondo para distinguirlo */
+}
+
+/* Estilo del segundo div con un 30% de ancho */
+#div2 {
+    width: 30%;
+    background-color: lightgreen; /* Color de fondo para distinguirlo */
+}
